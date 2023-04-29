@@ -1,0 +1,87 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#projects {
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  text-align: center;
+  box-shadow: 0 5px 8px rgba(182, 177, 177, 0.8);
+}
+
+.hero {
+  background-image: url("images/hero.jpg");
+  height: 100vh;
+  color: white;
+}
+
+.hero-area {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  margin-left: 80px;
+  margin-bottom: 200px;
+  z-index: 100;
+  margin-top: 250px;
+  font-size: 40px;
+}
+
+.hero-text>p:nth-child(1) {
+  font-size: 80px;
+}
+
+.background-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 99;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn>a {
+  color: white;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(30px) saturate(1.5) contrast(1.5);
+  font-size: 1.25em;
+}
+
+.navbar-brand {
+  font-size: 1.25em;
+}
+
+.card-img-top {
+  width: 100%;
+  box-shadow: 10px 10px 25px rgba(232, 238, 240, 0.6);
+  height: 150px;
+  object-fit: cover;
+}
