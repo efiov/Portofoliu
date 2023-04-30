@@ -21,10 +21,12 @@ h1 {
   gap: 10px;
   margin: 20px;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .card {
   text-align: center;
+  margin-bottom: 15px;
   box-shadow: 0 5px 8px rgba(182, 177, 177, 0.8);
 }
 
